@@ -1,0 +1,41 @@
+.case {
+  --light: rgba(255, 255, 255, 0.6);
+  --surface: transparent;
+  box-shadow: 0 0 3vmin hsla(219, 100%, 49%, 0.4);
+  aspect-ratio: 3/3.8;
+  position: relative;
+}
+.about-content{
+  /* position: absolute;
+  right: 10%; */
+  line-height: 35px;
+}
+/* img{
+  z-index: 111;
+  width: 15%;
+  margin-top: -10%;
+  margin-left: 1%;
+} */
+.kw{
+  font-weight: bolder;
+  color: rgb(237, 106, 106);
+}
+.body{
+  background-attachment:scroll; /* Fixe l'image de fond */
+  padding-top: 10%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.testimony-image {
+  float: left;
+  width: 130px;
+  height: 80px;
+}
+.author {
+  text-align: right;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 0;
+  width: 100%;
+  color: #fff;
+}

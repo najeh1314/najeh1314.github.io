@@ -1,0 +1,126 @@
+.body{
+    height: 1500px;
+}
+
+.case {
+  --light: rgba(255, 255, 255, 0.6);
+  --surface: transparent;
+  /* background:  conic-gradient(
+      var(--surface),
+      var(--light),
+      var(--surface),
+      var(--light),
+      var(--surface),
+      var(--light),
+      var(--surface),
+      var(--light),
+      var(--surface),
+      var(--surface)
+    ),
+    var(--labs-sys-color-surface); */
+  box-shadow: 0 0 10vmin hsla(219, 100%, 49%, 0.4);
+  aspect-ratio: 3/3.8;
+  border-radius: 0vmin;
+  position: relative;
+
+  /* .top,
+  .bottom {
+    height: 8vmin;
+  }
+
+  .center {
+    height: 60vmin;
+    display: grid;
+    place-items: center;
+  } */
+}
+/* 
+.case-border {
+  pointer-events: none;
+  position: absolute;
+  top: 0.5vmin;
+  left: 0;
+  right: 0.5vmin;
+  bottom: 0;
+  background: transparent;
+  border-radius: inherit;
+  z-index: var(--labs-sys-z-glass);
+  box-shadow: 0 -0.2vmin 0 0.15vmin rgba(0, 0, 0, 0.5),
+    0.1vmin -0.3vmin 0 0.1vmin hsla(0, 0%, 100%, 0.6),
+    0vmin -0.1vmin 0 0.1vmin hsla(0, 0%, 100%, 0.1),
+    0.2vmin -0.2vmin 0 0.2vmin hsla(0, 0%, 100%, 0.6);
+  mix-blend-mode: overlay;
+  opacity: 0.8;
+}
+
+.case-glass {
+  pointer-events: none;
+  --case-glass-light-size: 0.3vmin;
+  position: absolute;
+  z-index: var(--labs-sys-z-glass);
+  inset: 6vmin;
+  filter: drop-shadow(0 0 1vmin hsla(0, 0%, 0%, 0.4));
+  border-radius: 5vmin;
+}
+
+.case-glass-bg {
+  position: absolute;
+  inset: -0.5vmin;
+  border-radius: 6vmin;
+  background: linear-gradient(135deg, hsla(0, 0%, 20%, 1), hsla(0, 0%, 0%, 1))
+    border-box;
+  border: 3vmin solid transparent;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+.case-glass-soft-lights {
+  position: absolute;
+  inset: var(--case-glass-light-size);
+  border-radius: 5vmin;
+  background: linear-gradient(
+      to bottom,
+      hsla(0, 0%, 100%, 0.2),
+      transparent 40%,
+      transparent 50%,
+      hsla(0, 0%, 100%, 0.1)
+    )
+    border-box;
+  border: calc(var(--case-glass-light-size) * 4) solid transparent;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+.case-glass-middle-lights {
+  position: absolute;
+  inset: calc(var(--case-glass-light-size) * 2);
+  border-radius: 5vmin;
+  background: linear-gradient(
+      to bottom,
+      hsla(0, 0%, 100%, 0.2),
+      transparent 40%,
+      transparent 45%,
+      hsla(0, 0%, 100%, 0.1)
+    )
+    border-box;
+  border: var(--case-glass-light-size) solid transparent;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+.case-glass-hard-lights {
+  position: absolute;
+  inset: calc(var(--case-glass-light-size) * 2.5);
+  border-radius: 5vmin;
+  background: linear-gradient(
+      to bottom,
+      hsla(0, 0%, 100%, 0.1),
+      transparent 40%,
+      transparent 70%,
+      hsla(0, 0%, 100%, 0.1)
+    )
+    border-box;
+  border: calc(var(--case-glass-light-size) / 2) solid transparent;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+} */
