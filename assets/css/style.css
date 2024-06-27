@@ -354,6 +354,19 @@ body {
   padding-bottom: 6px;
   border-bottom: 1px solid var(--white);
 }
+.btn-link-white {
+  --background: none;
+  --border-color: none;
+  padding: 0;
+  color: black;
+  margin-inline: auto;
+  max-width: max-content;
+  font-family: var(--ff-roboto);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--black);
+}
 
 .btn-link:is(:hover, :focus) { border-color: transparent; }
 
@@ -619,7 +632,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: var(--white);
+  color: var(--rich-black-fogra-29);
   text-align: center;
   padding: 50px 20px;
 }
